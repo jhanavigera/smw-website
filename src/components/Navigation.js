@@ -5,12 +5,24 @@ import { Navbar, Nav } from 'react-bootstrap';
 export class Navigation extends Component {
     render() {
         return (
-            <Navbar bg="dark" expand="lg">
+            <Navbar bg="light" expand="lg">
+                <Navbar.Brand href="#home">
+                    <img
+                        src="/SMW_logo.png"
+                        width="30"
+                        height="30"
+                        className="d-inline-block align-top" />{' '}
+                    Skule Mental Wellness
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav>
-                        <NavLink className="d-inline p-2 bg-dark text-white" to="/">Home</NavLink>
-                        <NavLink className="d-inline p-2 bg-dark text-white" to="/">Events</NavLink>
+                        <NavLink className="d-inline p-2 bg-light text-black" to="/">Home</NavLink>
+                        <NavLink className="d-inline p-2 bg-light text-black" to="/">Events</NavLink>
+                        <NavLink className="d-inline p-2 bg-light text-black" to="/">Resource Library</NavLink>
+                        <NavLink className="d-inline p-2 bg-light text-black" to="/">Blog</NavLink>
+
+
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
