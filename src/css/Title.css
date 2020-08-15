@@ -37,25 +37,15 @@ p{
    height: 300px;
 }
 
-.yellow{
-    background-color: rgb(236, 240, 171);
-}
-.pink{
-    background-color: rgb(255,203,251);
-}
-.blue{
-    background-color: rgb(203,230,255);
-}
-.orange{
-    background-color: rgb(252,183,105);
-}
-.red{
-    background-color: rgb(255,147,158);
+
+.purple{
+    background-color: rgb(211, 194, 242);
 }
 
-.green{
-    background-color: rgb(161,255,164);
+.light{
+    background-color: rgb(230, 237, 234);
 }
+
 
 .mainButton:hover,
 .mainButton:focus {

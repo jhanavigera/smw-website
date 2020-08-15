@@ -15,29 +15,29 @@ function Title() {
 
                     <tr>
                         <td>
-                            <button class="mainButton yellow">MENTAL HEALTH RESOURCES</button>
+                            <button class="mainButton light">MENTAL HEALTH RESOURCES</button>
                         </td>
 
                         <td>
-                            <button class="mainButton pink">UPCOMING EVENTS</button>
+                            <button class="mainButton purple">UPCOMING EVENTS</button>
                         </td>
 
                         <td>
-                            <button class="mainButton green">ACADEMIC RESOURCES</button>
+                            <button class="mainButton light">ACADEMIC RESOURCES</button>
                         </td>
                     </tr>
 
                     <tr>
                         <td>
-                            <button class="mainButton red"></button>
+                            <button class="mainButton purple"></button>
                         </td>
 
                         <td>
-                            <button class="mainButton blue">SMW BLOG</button>
+                            <button class="mainButton light">SMW BLOG</button>
                         </td>
 
                         <td>
-                            <button class="mainButton orange">ONLINE ACTIVITIES</button>
+                            <button class="mainButton purple">ONLINE ACTIVITIES</button>
                         </td>
                     </tr>
                 </table>

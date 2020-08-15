@@ -9,6 +9,7 @@ var style = {
     bottom: "0",
     height: "60px",
     width: "100%",
+
 }
 
 var phantom = {
@@ -24,6 +25,7 @@ function Footer({ children }) {
             <div style={phantom} />
             <div style={style}>
                 {children}
+                <b>Follow us on social media!</b>
             </div>
         </div>
     )
