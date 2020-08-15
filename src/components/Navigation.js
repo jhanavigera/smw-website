@@ -9,6 +9,7 @@ export class Navigation extends Component {
                 <Navbar.Brand href="#home">
                     <img
                         src="/SMW_logo.png"
+                        alt=""
                         width="30"
                         height="30"
                         className="d-inline-block align-top" />{' '}
