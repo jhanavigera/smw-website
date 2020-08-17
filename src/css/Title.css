@@ -24,6 +24,13 @@ p{
     font-family: Tahoma, Geneva, sans-serif;
 }
 
+hr{
+    background-color: black;
+    height: 5px;
+    width: 90%;
+
+}
+
 .mainButton{
    color: black;
    margin: 8px 16px;

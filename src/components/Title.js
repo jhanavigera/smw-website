@@ -1,6 +1,8 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button'
 import '/Users/angyhiggy/smw-website/src/css/Title.css'
+import { Link } from 'react-router-dom'
+
 
 function Title() {
     return (
@@ -15,7 +17,9 @@ function Title() {
 
                     <tr>
                         <td>
-                            <button class="mainButton light">MENTAL HEALTH RESOURCES</button>
+                            <Link to="/MentalResources">
+                                <button class="mainButton light">MENTAL HEALTH RESOURCES</button>
+                            </Link>
                         </td>
 
                         <td>
@@ -23,7 +27,9 @@ function Title() {
                         </td>
 
                         <td>
-                            <button class="mainButton light">ACADEMIC RESOURCES</button>
+                            <Link to="/AcademicResources">
+                                <button class="mainButton light">ACADEMIC RESOURCES</button>
+                            </Link>
                         </td>
                     </tr>
 
@@ -33,17 +39,28 @@ function Title() {
                         </td>
 
                         <td>
-                            <button class="mainButton light">SMW BLOG</button>
+                            <Link to="/Blog">
+                                <button class="mainButton light">SMW BLOG</button>
+                            </Link>
+
+
                         </td>
 
                         <td>
-                            <button class="mainButton purple">ONLINE ACTIVITIES</button>
+                            <Link to="/OnlineActivities">
+                                <button class="mainButton purple">ONLINE ACTIVITIES</button>
+                            </Link>
                         </td>
                     </tr>
                 </table>
 
+
             </div>
+            <hr />
+
+
         </div >
     )
 }
+
 export default Title
