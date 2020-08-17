@@ -23,7 +23,7 @@ function Title() {
                         </td>
 
                         <td>
-                            <button class="mainButton purple">UPCOMING EVENTS</button>
+                            <button class="mainButton purple"></button>
                         </td>
 
                         <td>
@@ -57,6 +57,11 @@ function Title() {
 
             </div>
             <hr />
+            <div className="Title-text">
+                <h1>Upcoming Events</h1>
+                <p>F!rosh Yoga Night - September 8th</p>
+            </div>
+
 
 
         </div >
