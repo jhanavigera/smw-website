@@ -1,0 +1,103 @@
+.background{
+background: rgb(174,238,234);
+background: radial-gradient(circle, rgba(174,238,234,1) 31%, rgba(148,187,233,1) 69%);
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+height: 100px;
+background-size: cover; 
+}
+
+.tabButton{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 8px 8px;
+    border-radius: 4px;
+
+}
+
+.content-heading{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+.advisor{
+    text-align: center;
+    height: 200px;
+    width: 250px;
+    margin: 8px 4px;
+    margin-left: 30px;
+}
+
+.advisor img{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.advisor-heading{
+    width: 100%;
+    margin-left: 30px;
+
+}
+
+.Collapsible{
+    
+    border-radius: 12px;
+    
+    cursor: pointer;
+    padding: 12px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 90%
+}
+
+.tip-open-purple{
+    border: 2px solid purple;
+}
+
+
+
+.purple{
+    background-color: purple;
+    color: white;
+}
+
+.white{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.timeHeading{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.timeTipTitle{
+    font-weight: bold;
+    font-size: 20px;
+    width: 800px;
+}
+
+.workloadHeading{
+    margin-left: 30px;
+}
+
+.workloadTip{
+    margin-left: 30px;
+    max-width: 200px;
+    height: 200px;
+}
+.workloadTip-text{
+    max-width: 800px;
+    max-height: 800px;
+    margin-left: 20px;
+}
+
