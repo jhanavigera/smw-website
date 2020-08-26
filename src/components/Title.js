@@ -2,69 +2,78 @@ import React from 'react'
 import Button from 'react-bootstrap/Button'
 import '/Users/angyhiggy/smw-website/src/css/Title.css'
 import { Link } from 'react-router-dom'
+import { Grid, Cell } from 'react-mdl'
+import handbook from '/Users/angyhiggy/smw-website/src/img/Handbook_Cover.png'
 
 
 function Title() {
     return (
-        <div className="Title-image">
-            <div className="Title-text">
-                <br />
-                <h1>Welcome to Skule Mental Wellness</h1>
-                <p>We are here to help you succeed mentally and academically during the 2020-2021 school year through our events and connecting you to campus resources!</p>
-            </div>
-            <div className="buttons">
-                <table>
 
-                    <tr>
-                        <td>
-                            <Link to="/MentalResources">
-                                <button class="mainButton light">MENTAL HEALTH RESOURCES</button>
-                            </Link>
-                        </td>
+        <div style={{ width: '100%', margin: 'auto' }}>
 
-                        <td>
-                            <button class="mainButton purple"></button>
-                        </td>
+            <div className="title-container homeGradient">
+                <h2>Welcome to Skule Mental Wellness</h2>
+                <div class="row">
+                    <div className="about-container">
+                        <h3>What is SMW?</h3>
+                        <p>Skule Mental Wellness is comprised of a group engineering students that are strong advocates for mental health and wellness. We ensure that the Skule community has access to mental health resources they need. Additionally, we run events, workshops, and fun activities throughout the year to help relieve the stress that comes with being an engineering student.</p>
+                        <div class="about-buttons">
+                            <Link to="/About"><button className="btn btn-secondary">Meet the Team</button></Link>
+                            <button className="btn btn-secondary">Get Involved</button>
+                        </div>
+                    </div>
 
-                        <td>
-                            <Link to="/AcademicResources">
-                                <button class="mainButton light">ACADEMIC RESOURCES</button>
-                            </Link>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <button class="mainButton purple"></button>
-                        </td>
-
-                        <td>
-                            <Link to="/Blog">
-                                <button class="mainButton light">SMW BLOG</button>
-                            </Link>
+                    <div className="events-container">
+                        <h3>Upcoming Events</h3>
+                    </div>
+                </div>
 
 
-                        </td>
+                <div class="handbook-container">
 
-                        <td>
-                            <Link to="/OnlineActivities">
-                                <button class="mainButton purple">ONLINE ACTIVITIES</button>
-                            </Link>
-                        </td>
-                    </tr>
-                </table>
-
-
-            </div>
-            <hr />
-            <div className="Title-text">
-                <h1>Upcoming Events</h1>
-                <p>F!rosh Yoga Night - September 8th</p>
+                    <img src={handbook} />
+                </div>
+                <div class="handbook-text">
+                    <h5>Check out our mental wellness handbook</h5>
+                    <p>Read for ways to reduce stress and for some useful resources!</p>
+                    <button className="btn btn-secondary">Handbook PDF</button>
+                </div>
             </div>
 
 
+
+
+
+
+            <div className="title-container resourceGradient">
+                <h2>Resources for You</h2>
+
+                <div class="button-container">
+
+
+                    <a href="/AcademicResources">
+                        <button className="btn btn-secondary resource-button">
+                            Academic Resources
+                        </button>
+                    </a>
+
+                    <a href="/MentalResources">
+                        <button className="btn btn-secondary resource-button">
+                            Mental Health Resources
+                        </button>
+                    </a>
+
+                    <a href="/">
+                        <button className="btn btn-secondary resource-button">
+                            COVID-19 Resources
+                        </button>
+                    </a>
+
+                </div>
+            </div>
 
         </div >
+
     )
 }
 

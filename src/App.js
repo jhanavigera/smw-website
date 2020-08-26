@@ -26,9 +26,7 @@ class App extends Component {
           <Route path="/AcademicResources" component={AcademicResources} />
           <Route path="/MentalResources" component={MentalResources} />
           <Route path="/OnlineActivities" component={OnlineActivities} />
-
         </Switch>
-
         <Footer />
       </BrowserRouter>
     );

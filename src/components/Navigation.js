@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
-
+import '/Users/angyhiggy/smw-website/src/css/Navigation.css'
 export class Navigation extends Component {
     render() {
         return (
-            <Navbar bg="light" expand="lg">
+            <Navbar className="nav-color" expand="lg">
                 <Navbar.Brand href="#home">
                     <img
                         src="/SMW_logo.png"
@@ -18,8 +18,8 @@ export class Navigation extends Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav>
-                        <NavLink className="d-inline p-2 bg-light text-black" to="/">Home</NavLink>
-                        <NavLink className="d-inline p-2 bg-light text-black" to="/About">About Us</NavLink>
+                        <NavLink className="d-inline p-2" to="/">Home</NavLink>
+                        <NavLink className="d-inline p-2" to="/About">Our Team</NavLink>
 
 
                     </Nav>

@@ -1,0 +1,38 @@
+.about-heading{
+    text-align: center;
+    margin-top: 10px;
+}
+.member{
+    width: 275px;
+    height: 400px;
+    display: inline-block;
+    text-align: center;
+}
+
+.member img{
+    width: 200px;
+}
+
+.team{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.subTeam-3{
+    float: left;
+    width: 48%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.subTeam-2{
+    float: left;
+    width: 32%;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+

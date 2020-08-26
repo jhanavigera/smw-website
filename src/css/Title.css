@@ -9,6 +9,124 @@ background-size: cover;
 
 
 }
+
+.title-container{
+   display:inline-block;
+   width: 100%;
+   margin:0px;outline:none;
+   vertical-align: top;
+}
+
+.about-container{
+    max-width: 50%;
+    max-height: 1200px;
+    text-align: left;
+    border:4px solid white;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    color: white;
+    background-color: transparent;
+    font-weight: normal;
+}
+.about-container h3{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.about-container p{
+    margin-left: 10px;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.about-buttons{
+    text-align: center;
+    margin-bottom: 16px;
+}
+.about-buttons button{
+    margin: 10px;
+    width: 200px;
+    border-radius: 12px;
+    height: 75px;
+}
+
+.events-container{
+    margin-bottom: 10px;
+    width: 40%;
+    margin-left: 100px;
+    border: 4px solid white;
+    border-radius: 8px;
+    color: white;
+}
+
+.events-container{
+}
+.handbook-container{
+   width: 30%;
+   margin: 10px 20px;
+
+}
+.handbook-text{
+    width: 40%;
+    text-align: center;
+    margin: 100px 5px;
+}
+
+.handbook-container img{
+    float: left;
+    height: 300px;
+}
+
+
+
+.button-container{
+    text-align: center;
+}
+
+.homeGradient{
+background: #834d9b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #d04ed6, #834d9b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #d04ed6, #834d9b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+color: white;
+
+text-align: center;
+
+}
+
+.homeGradient h2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bolder;
+font-size: 60px;
+}
+
+.resourceGradient{
+background: #d9a7c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+color: black;
+
+}
+
+.resourceGradient h2{
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bold;
+font-size: 48px;
+}
+
+.resource-button{
+    margin: 8px 16px;
+    width: 25%;
+    padding: 20px;
+    height: 200px;
+}
+.resource-button h4{
+    font-weight: bold;
+}
 .Title-text{
     text-align: center;
     font-family: Century Gothic, sans-serif;
@@ -45,7 +163,7 @@ hr{
 }
 
 
-.purple{
+.pink{
     background-color: rgb(211, 194, 242);
 }
 
