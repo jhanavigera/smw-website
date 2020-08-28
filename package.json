@@ -1,5 +1,6 @@
 {
   "name": "smw-website",
+  "homepage": "https://www.wellness.skule.ca",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
