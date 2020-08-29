@@ -2,27 +2,27 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import Collapsible from 'react-collapsible';
-import '/Users/angyhiggy/smw-website/src/css/react-tabs.css';
-import '/Users/angyhiggy/smw-website/src/css/AcademicResources.css'
+import '../css/react-tabs.css';
+import '../css/AcademicResources.css'
 
-import leslie from '/Users/angyhiggy/smw-website/src/img/advisors/Leslie_Grife.jpg'
-import emzhei from '/Users/angyhiggy/smw-website/src/img/advisors/Emzhei_Chen.jpg'
-import jenn from '/Users/angyhiggy/smw-website/src/img/advisors/Jennifer_Fabro.jpg'
-import david from '/Users/angyhiggy/smw-website/src/img/advisors/David_Bird.jpg'
-import mikhail from '/Users/angyhiggy/smw-website/src/img/advisors/Mikhail_Burke.jpg'
-import vanessa from '/Users/angyhiggy/smw-website/src/img/advisors/Vanessa_Andres.jpg'
-import leanne from '/Users/angyhiggy/smw-website/src/img/advisors/Leanne_Dawkins.jpg'
-import shayni from '/Users/angyhiggy/smw-website/src/img/advisors/Shayni_Curtis.jpg'
-import gayle from '/Users/angyhiggy/smw-website/src/img/advisors/Gayle_Lesmond.png'
-import sabrin from '/Users/angyhiggy/smw-website/src/img/advisors/Sabrin_Mohamed.jpg'
-import stephen from '/Users/angyhiggy/smw-website/src/img/advisors/Stephen_Johns.jpg'
-import sharon from '/Users/angyhiggy/smw-website/src/img/advisors/Sharon_Brown.jpg'
-import pierina from '/Users/angyhiggy/smw-website/src/img/advisors/Pierina_Filipponne.jpg'
+import leslie from '../img/advisors/Leslie_Grife.jpg'
+import emzhei from '../img/advisors/Emzhei_Chen.jpg'
+import jenn from '../img/advisors/Jennifer_Fabro.jpg'
+import david from '../img/advisors/David_Bird.jpg'
+import mikhail from '../img/advisors/Mikhail_Burke.jpg'
+import vanessa from '../img/advisors/Vanessa_Andres.jpg'
+import leanne from '../img/advisors/Leanne_Dawkins.jpg'
+import shayni from '../img/advisors/Shayni_Curtis.jpg'
+import gayle from '../img/advisors/Gayle_Lesmond.png'
+import sabrin from '../img/advisors/Sabrin_Mohamed.jpg'
+import stephen from '../img/advisors/Stephen_Johns.jpg'
+import sharon from '../img/advisors/Sharon_Brown.jpg'
+import pierina from '../img/advisors/Pierina_Filipponne.jpg'
 
-import priorities from '/Users/angyhiggy/smw-website/src/img/workload/Priorities.png'
-import peers from '/Users/angyhiggy/smw-website/src/img/workload/Peers.png'
-import study from '/Users/angyhiggy/smw-website/src/img/workload/Study.jpg'
-import balance from '/Users/angyhiggy/smw-website/src/img/workload/Balance.png'
+import priorities from '../img/workload/Priorities.png'
+import peers from '../img/workload/Peers.png'
+import study from '../img/workload/Study.jpg'
+import balance from '../img/workload/Balance.png'
 
 
 class AcademicResources extends Component {

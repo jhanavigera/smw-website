@@ -1,0 +1,40 @@
+.full-height {
+    height: 100% !important;
+}
+
+.resource {
+    width: 90%;
+    margin: 1.5rem auto;
+}
+
+.resource-title {
+    width: 100%;
+    text-align: left;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    transition: 0.25s ease-in-out;
+}
+.resource-title:hover {
+    background-color: lavender;
+}
+.resource-title:focus {
+    outline: none;
+}
+
+.resource-body {
+    height: 0;
+    overflow: hidden;
+    transition: 0.2s height ease-in-out
+}
+
+.resource-list {
+    list-style-type: none;
+}
+
+.resource-item {
+    margin-top: 1em;
+    background-color: lavender;
+    padding: 10px;
+    border-radius: 10px;
+}

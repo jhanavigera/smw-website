@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
-import '/Users/angyhiggy/smw-website/src/css/About.css'
+import '../css/About.css'
 
-import angy from '/Users/angyhiggy/smw-website/src/img/team/Angy.png'
-import doaa from '/Users/angyhiggy/smw-website/src/img/team/Doaa.png'
-import jhanavi from '/Users/angyhiggy/smw-website/src/img/team/Jhanavi.png'
-import kayla from '/Users/angyhiggy/smw-website/src/img/team/Kayla.png'
-import melanie from '/Users/angyhiggy/smw-website/src/img/team/Melanie.png'
-import protiti from '/Users/angyhiggy/smw-website/src/img/team/Protiti.png'
-import sabita from '/Users/angyhiggy/smw-website/src/img/team/Sabita.png'
-import sonali from '/Users/angyhiggy/smw-website/src/img/team/Sonali.png'
-import stephanie from '/Users/angyhiggy/smw-website/src/img/team/Stephanie.png'
-import vanessa from '/Users/angyhiggy/smw-website/src/img/team/Vanessa.png'
-import yuqi from '/Users/angyhiggy/smw-website/src/img/team/Yuqi.png'
-import yuying from '/Users/angyhiggy/smw-website/src/img/team/YuYing.png'
+import angy from '../img/team/Angy.png';
+import doaa from '../img/team/Doaa.png'
+import jhanavi from '../img/team/Jhanavi.png'
+import kayla from '../img/team/Kayla.png'
+import melanie from '../img/team/Melanie.png'
+import protiti from '../img/team/Protiti.png'
+import sabita from '../img/team/Sabita.png'
+import sonali from '../img/team/Sonali.png'
+import stephanie from '../img/team/Stephanie.png'
+import vanessa from '../img/team/Vanessa.png'
+import yuqi from '../img/team/Yuqi.png'
+import yuying from '../img/team/YuYing.png'
 
 
 class About extends Component {

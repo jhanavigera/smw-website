@@ -1,9 +1,9 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button'
-import '/Users/angyhiggy/smw-website/src/css/Title.css'
+import '../css/Title.css'
 import { Link } from 'react-router-dom'
 import { Grid, Cell } from 'react-mdl'
-import handbook from '/Users/angyhiggy/smw-website/src/img/Handbook_Cover.png'
+import handbook from '../img/Handbook_Cover.png'
 
 
 function Title() {

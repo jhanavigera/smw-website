@@ -1,0 +1,178 @@
+
+{
+    "campus_resources": [
+        {
+            "name": "Health and Wellness Centre",
+            "number": "416-978-8030",
+            "address": "214 College St., 2nd Floor",
+            "website": "https://www.studentlife.utoronto.ca/hwc",
+            "des":"Confidential mental health and physical health services provided by an interdisciplinary team of health professionals."
+        },
+        {
+            "name": "Accessibility Services",
+            "number": "416-978-8060",
+            "address": "455 Spadina Ave., Suite 400",
+            "website": "https://www.studentlife.utoronto.ca/as",
+            "des": "Confidential service helps students to navigate their disability and related barriers and provides peer support."
+        },
+        {
+            "name": "Academic Success",
+            "number": "416-978-7970",
+            "address": "214 College St., Room 150",
+            "website": "https://www.studentlife.utoronto.ca/asc",
+            "des": "Help with navigating the university, building academic skills, staying focused and organized, and flourishing."
+        },
+        {
+            "name": "Sexual & Gender Diversity Office",
+            "number": "416-946-5624",
+            "address": "21 Sussex Avenue, 4th Floor",
+            "website": "https://sgdo.utoronto.ca/",
+            "des": "Develops parternships to build supportive learning and working communities at the University of Toronto by working towards equity and challenging discrimination."
+        },
+        {
+            "name": "Anti-Racism & Cultural Diversity Office",
+            "number": "416-978-1259",
+            "address": "155 College Street, Suite 356",
+            "website": "http://www.antiracism.utoronto.ca/",
+            "des": "Provides assistance and managing confidential concerns and complaints of discrimination and/or harassment based on race, ancestry, place of origin, colour, ethnic origin, citizenship, and/or creed."
+        },
+        {
+            "name": "Sexual Violence Prevention & Support Centre",
+            "number": "416-978-2266",
+            "address": "702 Spadina Avenue",
+            "website": "http://www.thesvpcentre.utoronto.ca/",
+            "des": "The Centre facilitates access to support, services and accommodations for students, staff and faculty members who have experienced sexual violence."
+        },
+        {
+            "name": "Good2Talk Student Helpline",
+            "number": "1-866-925-5454",
+            "address": "",
+            "website": "http://www.good2talk.ca/",
+            "des": "Professional counselling, information and referrals helpline for mental health, addictions and students well-being."
+        },
+        {
+            "name": "Indigenous Student Services",
+            "number": "416-978-1893",
+            "address": "563 Spadina Avenue, 3rd Floor",
+            "website": "http://www.studentlife.utoronto.ca/fnh",
+            "des": "First Nations House provides culturally relevant services to Indigenous students in support of academic success, personal growth and leadership development."
+        },
+        {
+            "name": "Community Safety Office",
+            "number": "416-978-1485",
+            "address": "21 Sussex Avenue, 2nd Floor",
+            "website": "http://www.communitysafety.utoronto.ca/",
+            "des": "First Nations House provides culturally relevant services to Indigenous students in support of academic success, personal growth and leadership development."
+        },
+        {
+            "name": "Centre for International Experiences",
+            "number": "416-978-2564",
+            "address": "33 St. George Street",
+            "website": "http://www.studentlife.utoronto.ca/cie",
+            "des": "A diverse community of international students coming to UofT and domestic students looking to go abraod."
+        },
+        {
+            "name": "Multi-Faith Centre",
+            "number": "416-946-3120",
+            "address": "569 Spadina Avenue",
+            "website": "http://www.studentlife.utoronto.ca/mf",
+            "des": "Supports the spiritual well-being of students, staff and faculty and increases our understanding of and respect for religious beliefs and practices."
+        },
+        {
+            "name": "Housing",
+            "number": "416-978-8045",
+            "address": "214 College St., Room 150",
+            "website": "http://www.studentlife.utoronto.ca/hs",
+            "des": "Housing Services offers the information, resources, and support you need to meet your housing goals."
+        },
+        {
+            "name": "TravelSmart",
+            "number": "416-978-7233",
+            "address": "On Campus, Various Location",
+            "website": "http://www.campuspolice.utoronto.ca/walksafe",
+            "des": "Student staff working in pairs (one male and one female) will escort you anywhere on campus or to a subway station."
+        },
+        {
+            "name": "Campus Police",
+            "number": "416-978-2222",
+            "address": "21 Sussex Ave., Suite 100",
+            "website": "http://www.campuspolice.utoronto.ca/",
+            "des": "Provides prgorams on personal safety, protection of property, conflict resolution, maintenance of public order, community service and referral, crime prevention and detection."
+        }
+    ],
+    "community_resources" : [
+        {
+            "name": "Sexual Assault & Domestic Violence Care Centres",
+            "number": "416-323-6040",
+            "address": "Women's College Hospital - 76 Grenville St., Rm 1305",
+            "website": "https://www.womenscollegehospital.ca/programs-and-services/sexual-assault-domestic-violence-care-centre/",
+            "des": "A comprehensive service that assists women, men, and trans people who are victims/survivors of sexual assault and domestic/intimate partner violence."
+        },
+        {
+            "name": "Toronto Rape Crisis Centre",
+            "number": "416-597-8808",
+            "address": "",
+            "website": "https://www.trccmwar.ca/",
+            "des": "A grassroots, women and non-binary run collective working towards a violence-free world by providing anti-oppressive, feminist peer support to survivors of sexual violence through support, education and activism."
+        },
+        {
+            "name": "Anishnawbe Health Toronto Mental Health Crisis Line",
+            "number": "416-360-0486 OR 416-920-2605",
+            "address": "225 Queen St. E OR 179 Gerrard St. E",
+            "website": "https://www.aht.ca/",
+            "des": "Improves health & wellbeing with Anishnawbe Health Toronto traditional healers, Elders and medicine people, and other health professionals."
+        },
+        {
+            "name": "Drug & Alcohol Helpline",
+            "number": "1-800-565-8603",
+            "address": "",
+            "website": "https://www.ementalhealth.ca/9861/",
+            "des": "Provides confidential and free information about drug and alcohol addiction services in Ontario."
+        },
+        {
+            "name": "Assaulted Women's Helpline",
+            "number": "416-863-0511",
+            "address": "",
+            "website": "https://www.awhl.org/home",
+            "des": "Offers a 24-hour teleophone and TTY crisis line to all women who have experienced abuse."
+        },
+        {
+            "name": "Distress Centres",
+            "number": "416-408-4357",
+            "address": "",
+            "website": "https://www.torontodistresscentre.com/",
+            "des": "Provides crisis, emotional support and suicide prevention + intervention + postvention services to individuals in our community."
+        },
+        {
+            "name": "LGBTQ Youthline",
+            "number": "1-800-268-9688",
+            "address": "",
+            "website": "https://www.youthline.ca/",
+            "des": "Confidential, non-judgmental & informed LGBTTQQ2SI pper support."
+        },
+        {
+            "name": "Gerstein Centre Mental Health Crisis Line",
+            "number": "416-929-5200, TTY: 416-929-9647",
+            "address": "",
+            "website": "https://www.gersteincentre.org/",
+            "des": "Provides mental health crisis support, strategis for addressing immediate problems, and connections to services offering ongoing support."
+        }
+    ],
+    "covid_resources": [
+        {
+            "name": "Fall 2020 UofT Information",
+            "number": "",
+            "address": "",
+            "website": "https://www.utoronto.ca/utogether2020",
+            "des": "General Information about student life on campus this Fall semester"
+        },
+        {
+            "name": "COVID-19 Information for Students - Office of the Vice Provost",
+            "number": "",
+            "address": "",
+            "website": "https://www.viceprovoststudents.utoronto.ca/covid-19/",
+            "des": "General Information and common questions & answers about student life on campus this Fall semester"
+        }
+
+    ]
+}

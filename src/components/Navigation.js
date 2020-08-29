@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
-import '/Users/angyhiggy/smw-website/src/css/Navigation.css'
+import '../css/Navigation.css'
 export class Navigation extends Component {
     render() {
         return (
@@ -20,6 +20,7 @@ export class Navigation extends Component {
                     <Nav>
                         <NavLink className="d-inline p-2" to="/">Home</NavLink>
                         <NavLink className="d-inline p-2" to="/About">Our Team</NavLink>
+                        <NavLink className="d-inline p-2" to="/MentalResources">Mental Health Resources</NavLink>
 
 
                     </Nav>
