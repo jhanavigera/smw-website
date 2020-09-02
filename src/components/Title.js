@@ -4,6 +4,9 @@ import '../css/Title.css'
 import { Link } from 'react-router-dom'
 import { Grid, Cell } from 'react-mdl'
 import handbook from '../img/Handbook_Cover.png'
+import peerCrisisCover from '../img/PeerCrisisCover.png'
+import handbookLink from '../Handbook 2020 - Updated.pdf'
+import PeerCrisis from '../Peer in Crisis.pdf'
 
 
 function Title() {
@@ -23,20 +26,37 @@ function Title() {
                         </div>
                     </div>
 
-                    <div className="events-container">
-                        <h3>Upcoming Events</h3>
+                </div>
+
+                <div class="row">
+                    <div class="handbook-container">
+                        <div class="handbook-cover">
+                            <img src={handbook} />
+                        </div>
+
+                        <div class="handbook-text">
+                            <h5>Presenting our Mental Wellness Handbook</h5>
+                            <p>Read for ways to reduce stress and for some useful resources!</p>
+                            <a href={handbookLink} target="_blank">
+                                <button className="btn btn-secondary">Handbook PDF</button>
+                            </a>
+                        </div>
+
+
                     </div>
-                </div>
 
-
-                <div class="handbook-container">
-
-                    <img src={handbook} />
-                </div>
-                <div class="handbook-text">
-                    <h5>Check out our mental wellness handbook</h5>
-                    <p>Read for ways to reduce stress and for some useful resources!</p>
-                    <button className="btn btn-secondary">Handbook PDF</button>
+                    <div class="handbook-container">
+                        <div class="handbook-cover">
+                            <img src={peerCrisisCover} />
+                        </div>
+                        <div class="handbook-text">
+                            <h5>Peer in Crisis Guide</h5>
+                            <p>Learn how you can take care of your peers that may be struggling with mental health.</p>
+                            <a href={PeerCrisis} target="_blank">
+                                <button className="btn btn-secondary">Guide PDF</button>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -52,20 +72,20 @@ function Title() {
 
 
                     <a href="/AcademicResources">
-                        <button className="btn btn-secondary resource-button">
-                            Academic Resources
+                        <button className="resource-button blue">
+                            <span>Academic Resources</span>
                         </button>
                     </a>
 
                     <a href="/MentalResources">
-                        <button className="btn btn-secondary resource-button">
-                            Mental Health Resources
+                        <button className="resource-button grey">
+                            <span>Mental Health Resources</span>
                         </button>
                     </a>
 
                     <a href="/">
-                        <button className="btn btn-secondary resource-button">
-                            COVID-19 Resources
+                        <button className="resource-button indigo">
+                            <span>COVID-19 Resources</span>
                         </button>
                     </a>
 
