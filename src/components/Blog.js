@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import Header from './Header';
 
 
 class Blog extends Component {
     render() {
         return (
-            <p>Welcome to SMW Blog</p>
+            <Header
+                images={["blog1.png", "blog2.png", "blog3.png"]}
+                pagename="Blog"/>
         );
     }
 

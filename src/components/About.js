@@ -13,6 +13,7 @@ import stephanie from '../img/team/Stephanie.png'
 import vanessa from '../img/team/Vanessa.png'
 import yuqi from '../img/team/Yuqi.png'
 import yuying from '../img/team/YuYing.png'
+import Header from './Header';
 
 
 class About extends Component {
@@ -20,9 +21,12 @@ class About extends Component {
         return (
             <div style={{ width: '100%', margin: 'auto' }}>
 
-                <div className="about-heading">
+                <Header 
+                    images={["team3.png", "team2.png", "team1.png"]}
+                    pagename="SMW Executive Team 2020-2021" />
+                {/* <div className="about-heading">
                     <h2>SMW Executive Team 2020-2021</h2>
-                </div>
+                </div> */}
 
 
                 <div className="team">

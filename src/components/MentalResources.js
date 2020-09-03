@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
-import { Row, Col } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 import resources from '../util/mental-resources.json';
 import '../css/resources.css';
+import Collapsible from 'react-collapsible';
+import Header from './Header';
 
 class MentalResources extends Component {
     render() {
         return (
             <div>
-                <h2>Mental Health Resources</h2>
-                <p> The place to find all the resources you need!</p>
+                <Header 
+                    images={["mhw1.png", "mhw2.png", "mhw3.png"]}
+                    pagename="Mental Health Resources" 
+                    subtitle="The place to find all the resources you need!"/>
                 <ResourceSection 
                     name="COVID-19 Resources" 
                     resources={resources.covid_resources}/>
@@ -35,30 +39,23 @@ function ResourceSection(props) {
             description={r.des}/>        
     })
     const id = props.name.split(' ').join('');
-    function showResources(name) {
-        const elem = document.getElementById(name);
-        if(elem.classList.contains("full-height"))
-            elem.classList.remove("full-height")
-        else elem.classList.add("full-height")
-    }
 
     return(
         <div className="resource">
-            <button className="resource-title" onClick={() => showResources(id)}>
-                <Row>
-                    <Col sm={11}>
-                        <h4>{props.name}</h4>
-                    </Col>
-                    <Col sm={1}>
-                        <span>icon</span>
-                    </Col>
-                </Row>
-            </button>
-            <div className="resource-body" id={id}>
-                <ul className="resource-list">
-                    {resources}
-                </ul>
-            </div>
+            <Container>
+                <Collapsible 
+                    trigger={props.name + ' ▼'} 
+                    triggerClassName="resource-title" 
+                    triggerOpenedClassName="resource-title" 
+                    triggerWhenOpen={props.name + ' ▲'}>
+
+                    <div className="resource-body" id={id}>
+                        <ul className="resource-list">
+                            {resources}
+                        </ul>
+                    </div>
+                </Collapsible>
+            </Container>
         </div>
     )
 }

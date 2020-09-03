@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import '../css/Navigation.css'
+
 export class Navigation extends Component {
     render() {
         return (
             <Navbar className="nav-color" expand="lg">
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="/">
                     <img
                         src="/SMW_logo.png"
                         alt=""
@@ -17,12 +18,16 @@ export class Navigation extends Component {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav>
-                        <NavLink className="d-inline p-2" to="/">Home</NavLink>
-                        <NavLink className="d-inline p-2" to="/About">Our Team</NavLink>
-                        <NavLink className="d-inline p-2" to="/MentalResources">Mental Health Resources</NavLink>
+                    <Nav className="ml-auto" style={{marginRight: '2.5rem'}}>
+                        <NavLink className="d-inline p-2 menu-link" to="/">Home</NavLink>
+                        <NavLink className="d-inline p-2 menu-link" to="/About">Our Team</NavLink>
+                        <NavLink className="d-inline p-2 menu-link" to="/Blog">Blog</NavLink>
 
+                        <NavDropdown title="Resources" className="menu-link">
+                            <NavDropdown.Item href="/MentalResources">Mental Health Resources</NavDropdown.Item>
+                            <NavDropdown.Item href="/AcademicResources">Academic Resources</NavDropdown.Item>
 
+                        </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

@@ -11,13 +11,14 @@ import MentalResources from './components/MentalResources';
 import OnlineActivities from './components/OnlineActivities'
 
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import history from './util/History';
 
 
 class App extends Component {
   render() {
     return (
 
-      <BrowserRouter>
+      <BrowserRouter history={history}>
         <Navigation />
         <Switch>
           <Route exact path="/" component={Title} />

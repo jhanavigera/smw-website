@@ -23,11 +23,16 @@ import priorities from '../img/workload/Priorities.png'
 import peers from '../img/workload/Peers.png'
 import study from '../img/workload/Study.jpg'
 import balance from '../img/workload/Balance.png'
+import Header from './Header';
 
 
 class AcademicResources extends Component {
     render() {
         return (
+            <div>
+            <Header 
+                images={["academic1.png", "academic2.png", "academic3.png"]}
+                pagename="Academic Resources" />
             <Tabs>
                 <TabList>
                     <Tab>Academic Advisors</Tab>
@@ -327,6 +332,7 @@ class AcademicResources extends Component {
 
                 </TabPanel>
             </Tabs >
+            </div>
 
         );
     }
