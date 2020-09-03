@@ -8,6 +8,7 @@ import kayla from '../img/team/Kayla.png'
 import melanie from '../img/team/Melanie.png'
 import protiti from '../img/team/Protiti.png'
 import sabita from '../img/team/Sabita.png'
+import sheral from '../img/team/Sheral.png'
 import sonali from '../img/team/Sonali.png'
 import stephanie from '../img/team/Stephanie.png'
 import vanessa from '../img/team/Vanessa.png'
@@ -30,6 +31,19 @@ class About extends Component {
 
 
                 <div className="team">
+
+                    <div className="row">
+                        <div className="director">
+                            <div className="member">
+                                <img src={sheral} />
+                                <p><b>Sheral Kumar - </b>EngSci 2T2<br />
+                                Mental Wellness Director
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
                     <div className="row">
 
                         <div className="subTeam-3">

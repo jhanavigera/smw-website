@@ -3,10 +3,11 @@
     margin-top: 10px;
 }
 .member{
-    width: 275px;
-    height: 400px;
+    max-width: 300px;
+    height: 300px;
     display: inline-block;
     text-align: center;
+    padding: 15px;
 }
 
 .member img{
@@ -19,18 +20,23 @@
     
 }
 
+.director{
+    text-align: center;
+    width: 100%;
+}
+
 .subTeam-3{
     float: left;
     width: 48%;
     margin: 0 auto;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 
 .subTeam-2{
     float: left;
     width: 32%;
-    padding: 10px;
+    padding: 5px;
     margin: 0 auto;
     text-align: center;
 }
