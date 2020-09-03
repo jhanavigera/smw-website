@@ -10,7 +10,7 @@ import AcademicResources from './components/AcademicResources';
 import MentalResources from './components/MentalResources';
 import OnlineActivities from './components/OnlineActivities'
 
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import history from './util/History';
 
 
@@ -22,11 +22,11 @@ class App extends Component {
         <Navigation />
         <Switch>
           <Route exact path="/" component={Title} />
-          <Route path="/About" component={About} />
-          <Route path="/Blog" component={Blog} />
-          <Route path="/AcademicResources" component={AcademicResources} />
-          <Route path="/MentalResources" component={MentalResources} />
-          <Route path="/OnlineActivities" component={OnlineActivities} />
+          <Route path="/About" exact component={About} />
+          <Route path="/Blog" exact component={Blog} />
+          <Route path="/AcademicResources" exact component={AcademicResources} />
+          <Route path="/MentalResources" exact component={MentalResources} />
+          <Route path="/OnlineActivities" exact component={OnlineActivities} />
         </Switch>
         <Footer />
       </BrowserRouter>
