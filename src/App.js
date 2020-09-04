@@ -12,6 +12,7 @@ import OnlineActivities from './components/OnlineActivities'
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import history from './util/History';
+import BlogPost from './blog-posts/BlogPost';
 
 
 class App extends Component {
@@ -23,7 +24,8 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Title} />
           <Route path="/About" exact component={About} />
-          <Route path="/Blog" exact component={Blog} />
+          <Route path="/blog" exact component={Blog} />
+          <Route path="/blog/:article" exact component={BlogPost}/>
           <Route path="/AcademicResources" exact component={AcademicResources} />
           <Route path="/MentalResources" exact component={MentalResources} />
           <Route path="/OnlineActivities" exact component={OnlineActivities} />

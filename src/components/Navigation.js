@@ -21,7 +21,7 @@ export class Navigation extends Component {
                     <Nav className="ml-auto" style={{marginRight: '2.5rem'}}>
                         <NavLink className="d-inline p-2 menu-link" to="/">Home</NavLink>
                         <NavLink className="d-inline p-2 menu-link" to="/About">Our Team</NavLink>
-                        <NavLink className="d-inline p-2 menu-link" to="/Blog">Blog</NavLink>
+                        <NavLink className="d-inline p-2 menu-link" to="/blog">Blog</NavLink>
 
                         <NavDropdown title="Resources" className="menu-link">
                             <NavDropdown.Item href="/MentalResources">Mental Health Resources</NavDropdown.Item>
