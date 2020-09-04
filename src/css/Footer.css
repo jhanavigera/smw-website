@@ -1,0 +1,14 @@
+.social-media-link{
+    width: 32%;
+    text-align: center;
+    float: left;
+}
+
+.social-media-link img{
+    margin-right: 5px;
+}
+
+.footer-title{
+    color: purple;
+    height: 1px;
+}
