@@ -17,11 +17,11 @@ function Title() {
                 <div className="hero-text">
                     <h1>Welcome to Skule Mental Wellness</h1><br />
                     <h6>We are a group engineering students that are strong advocates for mental health and wellness. We ensure that the Skule community has access to mental health resources they need. Additionally, we run events, workshops, and fun activities throughout the year to help relieve the stress that comes with being an engineering student.</h6><br />
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <div class="buttons">
-                            <a href="/MentalResources" className="button1">Mental Health Resources</a>
-                            <a href="" className="button1">Join Skule Mental Wellness</a>
-                            <a href="/AcademicResources" className="button1">Academic Resources</a>
+                            <a href="/MentalResources" className="button1 large">Mental Health Resources</a>
+                            <a href="" className="button1 large">Join Skule Mental Wellness</a>
+                            <a href="/AcademicResources" className="button1 large">Academic Resources</a>
 
 
                         </div>
@@ -43,14 +43,14 @@ function Title() {
                         <img src={handbook} />
                         <h5>SMW Handbook 2020-2021</h5>
                         <p>Read for ways to reduce stress and for some useful resources!</p>
-                        <a href={handbookLink} class="button1">Handbook PDF</a>
+                        <a href={handbookLink} class="button1 small">Handbook PDF</a>
                     </div>
 
                     <div class="item">
                         <img src={peerCrisisCover} />
                         <h5>Peer in Crisis Guide</h5>
                         <p>Learn how you can take care of your peers that may be struggling with mental health.</p>
-                        <a href={PeerCrisis} class="button1">Guide PDF</a>
+                        <a href={PeerCrisis} class="button1 small">Guide PDF</a>
                     </div>
 
 

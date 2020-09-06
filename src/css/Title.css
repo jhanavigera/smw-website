@@ -1,7 +1,7 @@
 
 .hero-text{
     text-align: center;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
@@ -18,27 +18,31 @@ background-image:url('../img/cloud-header.png');
 background-repeat: no-repeat;
 background-position: center;
 width: 100%;
-height: 700px;
+height: 55vw;
 background-size: cover;
 
 
 }
 
-.Title-image h1{
+.hero-text h1{
     font-weight: 300 bold;
-    font-size: 45px;
+    font-size: 4vw;
     color: black;
 }
 
-.Title-image h6{
+
+.hero-text h6{
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.8vw;
     color: rgb(91,91,92);
+}
+
+.buttons{
+    text-align:center;
 }
 
 a.button1{
 display:inline-block;
-padding:0.35em 1.2em;
 border:0.1em solid rgb(137,7,186);
 background-color: white;
 margin:0 2em 2em 0;
@@ -47,7 +51,6 @@ box-sizing: border-box;
 text-decoration:none;
 font-family:'Roboto',sans-serif;
 font-weight:300;
-font-size: 20px;
 color: black;
 text-align:center;
 transition: all 0.2s;
@@ -55,6 +58,16 @@ transition: all 0.2s;
 a.button1:hover{
 color:#000000;
 background-color: transparent;
+}
+
+.large{
+    padding:0.35em 1.2em;
+    font-size: 1.6vw;
+}
+
+.small{
+    padding: 0.28em 0.96em;
+    font-size: 0.8vw;
 }
 
 .events-section{
@@ -77,10 +90,12 @@ background-color: transparent;
    width: 10%;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 10px;
     float: left;
 }
 
 .item{
+    margin-top: 30px;
     width: 100%;
 }
 
