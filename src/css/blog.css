@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lora:wght@400;500;600&family=Open+Sans:wght@300;400&display=swap');
 
-
 :root {
     --wlb: #5B1C77;
     --wlb-light: lavender;
@@ -8,6 +7,8 @@
     --o-light: #FDEBD0;
     --sc: #3498DB;
     --sc-light: #D6EAF8;
+    --aca: #1ABC9C;
+    --aca-light: #dcfff8;
     --all: #424242;
     --all-light: #F2F3F4;
 }
@@ -15,6 +16,7 @@
 .work-life-balance-bg {background-color: var(--wlb);}
 .self-care-bg {background-color: var(--sc);}
 .organization-bg {background-color: var(--o);}
+.academia-bg {background-color: var(--aca)}
 
 .blog-post-container, .blog-post-hub {
     width: 85%;
@@ -24,20 +26,52 @@
     /* font-weight: 300; */
 }
 
-.blog-post-container p {
+.blog-post-container p, .blog-post-container li p:first-of-type::first-line{
     font-family: inherit;
     font-weight: 400;
     font-size: 3vh;
     margin: 2rem 0;
     text-indent: 8vh;
+    background-color: transparent;
 }
 
 .blog-post-container p:first-of-type::first-line {
-    font-family: 'Lora', serif;
+    /* font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 25.5px;
-    background-color: lavender;
+    background-color: lavender; */
 }
+
+.blog-post-container h3 {
+    font-family: 'Lora', serif;
+    margin-bottom: 2rem;
+}
+
+.highlight-list {
+    list-style: none;
+    counter-reset: highlight-counter;
+}
+
+.highlight-list li {
+    counter-increment: highlight-counter;
+}
+
+.highlight-list li strong, .highlight-list li::before{
+    font-size: 3.5vh;
+    content: counter(highlight-counter) ". ";
+    background-color: var(--wlb-light);
+    padding: 0.5rem 0.75rem 0.5rem 0.25rem;
+    font-weight: bold;
+}
+
+.highlight-list li::before {
+    padding: 0.5rem 0 0.5rem 0.75rem;
+}
+
+/* .blog-post-container ol li::before {
+    font-weight: 700;
+    font-size: 7vh;
+} */
 
 .blog-post-container blockquote {
     width: 100%;
@@ -117,7 +151,7 @@
 .blog-post {
     display: block;
     width: 75%;
-    max-height: 200px;
+    /* max-height: 200px; */
     margin: 2.5rem 0;
     padding: 1.5rem;
     border: none !important;
@@ -237,6 +271,17 @@ span.left   {bottom: 0; left: 0;}
 .o:hover {
     color: var(--o-light);
     background-color: var(--o);
+}
+
+.aca, .academia{
+    border: 1px solid var(--aca);
+    color: var(--aca);
+    background-color: var(--aca-light);
+}
+
+.aca:hover {
+    color: var(--aca-light);
+    background-color: var(--aca);
 }
 
 @media(max-width: 675px) {

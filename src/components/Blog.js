@@ -21,9 +21,9 @@ class Blog extends Component {
     renderPosts(event) {
         const cat = event.target.name;
         let postHTML = [];
-        Object.keys(postData).forEach(p => {
+        Object.keys(postData).sort().forEach(p => {
             if(p === cat || cat === "all") {
-                const catHTML = Object.keys(postData[p]).map(c => {
+                const catHTML = Object.keys(postData[p]).sort().map(c => {
                     return (
                         <a key={p + "-" + c} href={`/blog/${p}-${c}`} className={`blog-post ${p}`}>
                             <span className={`top ${p}-bg`}></span>
@@ -64,6 +64,7 @@ class Blog extends Component {
                         <input type="button" className="blog-cat wlb" name="work-life-balance" value="work life balance" onClick={this.renderPosts}/>
                         <input type="button" className="blog-cat sc" name="self-care" value="self care" onClick={this.renderPosts}/>
                         <input type="button" className="blog-cat o" name="organization" value="organization" onClick={this.renderPosts}/>
+                        <input type="button" className="blog-cat aca" name="academia" value="academia" onClick={this.renderPosts}/>
                     </div>
                     <div className="blog-post-list">
                         {this.state.posts}

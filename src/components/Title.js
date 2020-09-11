@@ -17,8 +17,8 @@ function Title() {
                 <div className="hero-text">
                     <h1>Welcome to Skule Mental Wellness</h1><br />
                     <h6>We are a group engineering students that are strong advocates for mental health and wellness. We ensure that the Skule community has access to mental health resources they need. Additionally, we run events, workshops, and fun activities throughout the year to help relieve the stress that comes with being an engineering student.</h6><br />
-                    <div class="row justify-content-center">
-                        <div class="buttons">
+                    <div className="row justify-content-center">
+                        <div className="buttons">
                             <a href="/MentalResources" className="button1 large">Mental Health Resources</a>
                             <a href="" className="button1 large">Join Skule Mental Wellness</a>
                             <a href="/AcademicResources" className="button1 large">Academic Resources</a>
@@ -33,20 +33,20 @@ function Title() {
             </div>
 
             <div class="row">
-                <div class="events-section">
-                    <Calendar />
+                <div className="events-section">
+                    {/* <Calendar /> */}
                 </div>
 
-                <div class="pdf-section">
+                <div className="pdf-section">
                     <h1>PDF Resources</h1>
-                    <div class="item">
+                    <div className="item">
                         <img src={handbook} />
                         <h5>SMW Handbook 2020-2021</h5>
                         <p>Read for ways to reduce stress and for some useful resources!</p>
                         <a href={handbookLink} class="button1 small">Handbook PDF</a>
                     </div>
 
-                    <div class="item">
+                    <div className="item">
                         <img src={peerCrisisCover} />
                         <h5>Peer in Crisis Guide</h5>
                         <p>Learn how you can take care of your peers that may be struggling with mental health.</p>
