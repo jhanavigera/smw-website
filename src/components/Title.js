@@ -7,7 +7,7 @@ import handbook from '../img/Handbook_Cover.png'
 import peerCrisisCover from '../img/PeerCrisisCover.png'
 import handbookLink from '../Handbook 2020 - Updated.pdf'
 import PeerCrisis from '../Peer in Crisis.pdf'
-import Calendar from '../components/Calendar'
+import Events from '../components/Events'
 
 
 function Title() {
@@ -16,11 +16,11 @@ function Title() {
             <div className="Title-image">
                 <div className="hero-text">
                     <h1>Welcome to Skule Mental Wellness</h1><br />
-                    <h6>We are a group engineering students that are strong advocates for mental health and wellness. We ensure that the Skule community has access to mental health resources they need. Additionally, we run events, workshops, and fun activities throughout the year to help relieve the stress that comes with being an engineering student.</h6><br />
+                    <h6>We are a group of engineering students that are strong advocates for mental health and wellness. We ensure that the Skule community has access to mental health resources they need. Additionally, we run events, workshops, and fun activities throughout the year to help relieve the stress that comes with being an engineering student.</h6><br />
                     <div className="row justify-content-center">
                         <div className="buttons">
                             <a href="/MentalResources" className="button1 large">Mental Health Resources</a>
-                            <a href="" className="button1 large">Join Skule Mental Wellness</a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkCQa_6ylGDsFmD07Sv-VPYQcKhGWkzSsGriVTrJFDDXY92g/viewform" target="_blank" className="button1 large">Join Skule Mental Wellness</a>
                             <a href="/AcademicResources" className="button1 large">Academic Resources</a>
 
 
@@ -34,7 +34,7 @@ function Title() {
 
             <div class="row">
                 <div className="events-section">
-                    {/* <Calendar /> */}
+                    {<Events />}
                 </div>
 
                 <div className="pdf-section">

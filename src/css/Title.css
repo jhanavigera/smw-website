@@ -75,9 +75,13 @@ background-color: transparent;
     width: 50%;
 }
 
+.events-section h1{
+    text-align: center;
+}
+
 
 .pdf-section{
-    float: let;
+    float: left;
     width: 50%;
 
 }
