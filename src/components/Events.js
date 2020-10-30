@@ -5,24 +5,19 @@ class Events extends Component {
     state = {
         events: [
             {
-                "name": "Movie Night (Animated/Disney Theme)",
-                "date": "09/26/2020",
-                "time": "10:00 AM EST & 8:00 PM EST",
-                "link": "TBD"
+                "name": "Movie Night - Train to Busan",
+                "date": "10/31/2020",
+                "time": "8:00 PM EST",
+                "link": "DM Us on Instagram for Zoom Info!"
             },
 
             {
-                "name": "SMW Sunday Yoga with Angy",
-                "date": "10/04/2020",
+                "name": "SMW Sunday Yoga",
+                "date": "11/08/2020",
                 "time": "7:00 PM EST",
-                "link": "TBD"
-            },
-            {
-                "name": "SMW Sunday Yoga with Vanessa",
-                "date": "10/18/2020",
-                "time": "7:00 PM EST",
-                "link": "TBD"
+                "link": "DM Us on Instagram for Zoom Info!"
             }
+
         ]
     };
     render() {
