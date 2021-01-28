@@ -5,15 +5,15 @@ class Events extends Component {
     state = {
         events: [
             {
-                "name": "Movie Night - Train to Busan",
-                "date": "10/31/2020",
-                "time": "8:00 PM EST",
+                "name": "SMW Sunday Yoga",
+                "date": "02/06/2021",
+                "time": "7:00 PM EST",
                 "link": "DM Us on Instagram for Zoom Info!"
             },
 
             {
                 "name": "SMW Sunday Yoga",
-                "date": "11/08/2020",
+                "date": "02/20/2021",
                 "time": "7:00 PM EST",
                 "link": "DM Us on Instagram for Zoom Info!"
             }

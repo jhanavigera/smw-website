@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../css/blog.css';
 import data from './data.json';
 //Sept 3
+import MentalHealthJan28 from './mental-health/MentalHealthJan28';
 import WorkLifeBalanceSept3 from './work-life-balance/WorkLifeBalanceSept3';
 import SelfCareSept3 from './self-care/SelfCareSept3';
 import OrganizationSept3 from './organization/OrganizationSept3';
@@ -13,6 +14,14 @@ export default class BlogPost extends Component {
         const articleId = this.props.match.params.article;
         return(
             <div className="blog-post-container">
+                {
+                    articleId === "mental-health-jan-28-2021" &&
+                    <MentalHealthJan28
+                        title ={data["mental-health"]["jan-28-2021"].title}
+                        author={data["mental-health"]["jan-28-2021"].author}
+                        date={data["mental-health"]["jan-28-2021"].date}
+                category={data["mental-health"]["jan-28-2021"].category}/>  }
+                
                 {   
                     articleId === "work-life-balance-sept-3-2020" && 
                     <WorkLifeBalanceSept3   

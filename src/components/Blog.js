@@ -61,6 +61,7 @@ class Blog extends Component {
                 <div className="blog-post-hub">
                     <div className="blog-categories">
                         <input type="button" className="blog-cat all" name="all" value="all posts" onClick={this.renderPosts}/>
+                        <input type="button" className="blog-cat mh" name="mental-health" value="mental health" onClick={this.renderPosts}/>
                         <input type="button" className="blog-cat wlb" name="work-life-balance" value="work life balance" onClick={this.renderPosts}/>
                         <input type="button" className="blog-cat sc" name="self-care" value="self care" onClick={this.renderPosts}/>
                         <input type="button" className="blog-cat o" name="organization" value="organization" onClick={this.renderPosts}/>
