@@ -22,6 +22,8 @@ function Title() {
                             <a href="/MentalResources" className="button1 large">Mental Health Resources</a>
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfkCQa_6ylGDsFmD07Sv-VPYQcKhGWkzSsGriVTrJFDDXY92g/viewform" target="_blank" className="button1 large">Join Skule Mental Wellness</a>
                             <a href="/AcademicResources" className="button1 large">Academic Resources</a>
+                            <br/>
+                            <a href="/MyFailureStory" className="button1 large">My Failure Story</a>
 
 
                         </div>
