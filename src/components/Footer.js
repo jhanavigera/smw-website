@@ -11,9 +11,8 @@ var style = {
     position: "fixed",
     left: "0",
     bottom: "0",
-    height: "60px",
+    height: "5rem",
     width: "100%",
-
 }
 
 var phantom = {

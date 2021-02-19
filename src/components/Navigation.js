@@ -22,6 +22,7 @@ export class Navigation extends Component {
                         <NavLink className="d-inline p-2 menu-link" to="/">Home</NavLink>
                         <NavLink className="d-inline p-2 menu-link" to="/About">Our Team</NavLink>
                         <NavLink className="d-inline p-2 menu-link" to="/blog">Blog</NavLink>
+                        <NavLink className="d-inline p-2 menu-link" to="/MyFailureStory">My Failure Story</NavLink>
 
                         <NavDropdown title="Resources" className="menu-link">
                             <NavDropdown.Item href="/MentalResources">Mental Health Resources</NavDropdown.Item>
