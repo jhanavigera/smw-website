@@ -1,0 +1,67 @@
+
+[
+{
+    "professor": "Jonathan Rose",
+    "image": "JRose",
+    "description": "I was working in my first job for an hourly wage – a Canadian Tire store – as a general part-time store assistant...",
+    "full_link": ""
+
+    
+},
+
+{
+    "professor": "Emily Moore",
+    "image": "EMoore",
+    "description": "My failure story goes back to my first term at Queen’s.  In calculus, I got a 32% on the midterm...",
+    "full_link": ""
+},
+
+{
+    "professor": "Robert Irish",
+    "image": "RIrish",
+    "description": "Not only was I unable to make much progress on my research, but I was often unable to do much of anything at all. My brain was in a fog....",
+    "full_link": ""
+},
+
+{
+    "professor": "Natalie Enright Jerger",
+    "image": "NEnrightJerger",
+    "description": "I arrived on campus with zero experience in programming and immediately felt out of my depth...",
+    "full_link": ""
+},
+
+{
+    "professor": "Jennifer Farmer",
+    "image": "JFarmer",
+    "description": "Through my job, I contracted “mono”, an illness which left me fatigued. Despite seeing a doctor, my illness wasn’t properly diagnosed until 8 months later...",
+    "full_link": ""
+},
+
+{
+    "professor": "Brenda McCabe",
+    "image": "BMcCabe",
+    "description": "One of my ongoing failures is that I’ve always had a very difficult time remembering names...",
+    "full_link": ""
+},
+
+{
+    "professor": "Peter Weiss",
+    "image": "PWeiss",
+    "description": "You do not have to be a bad student to fail. I was never a bad student, certainly not in the sense of a student who was disruptive or had bad behavior...",
+    "full_link": ""
+},
+
+{
+    "professor": "Jason Bazylak",
+    "image": "JBazylak",
+    "description": "I was confident going into Engineering. Why wouldn’t I be? I was a “great student” in high school and Engineering couldn’t be that different from high school could it?...It was.",
+    "full_link": ""
+},
+
+{
+    "professor": "Ravi Adve",
+    "image": "RAdve",
+    "description": "I failed my first year Engineering Drawing class. I had never been good at drawing, but actually failing the class was a shock to the system...",
+    "full_link": ""
+}
+]

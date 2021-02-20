@@ -9,11 +9,12 @@ import Blog from './components/Blog';
 import AcademicResources from './components/AcademicResources';
 import MentalResources from './components/MentalResources';
 import OnlineActivities from './components/OnlineActivities'
-import MyFailure from './components/MyFailureStory'
+
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import history from './util/History';
 import BlogPost from './blog-posts/BlogPost';
+import MyFailureStory from './components/MyFailureStory';
 
 
 class App extends Component {
@@ -30,7 +31,7 @@ class App extends Component {
           <Route path="/AcademicResources" exact component={AcademicResources} />
           <Route path="/MentalResources" exact component={MentalResources} />
           <Route path="/OnlineActivities" exact component={OnlineActivities} />
-          <Route path="/MyFailureStory" exact component={MyFailure}/>
+          <Route path="/MyFailureStory" exact component={MyFailureStory}/>
         </Switch>
         <Footer />
       </BrowserRouter>
