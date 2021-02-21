@@ -1,9 +1,6 @@
 .header {
     width: 100%;
     height: 300px;
-    /* position: absolute; */
-    /* top: 50px;
-    left: 0; */
     overflow: hidden;
     padding: 2.5rem;
     background-color: lavender; /*#f7f0ff;*/
@@ -26,4 +23,37 @@
 .header h1 {
     font-weight: 300;
     font-size: 38px;
+}
+
+.failure-story-profile{
+    width: 100%;
+    height: 250px;
+    background-color: lavender;
+    overflow: hidden;
+}
+
+.failure-story-profile img {
+    height: 100%;
+    width: 70%;
+    margin: 0.5rem 0 0 3.5rem;
+}
+
+.failure-story-profile .bio {
+    vertical-align: text-bottom;
+    margin: 2.5rem 2.25rem 0 0;
+}
+
+.post {
+    width: 85%;
+    padding: 2.5rem;
+    margin: 2.5rem auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.post p {
+    font-weight: 400;
+    font-size: 3vh;
+    margin: 1.5rem 0;
+    text-indent: 8vh;
+    background-color: transparent;
 }

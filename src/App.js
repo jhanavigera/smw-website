@@ -15,6 +15,15 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import history from './util/History';
 import BlogPost from './blog-posts/BlogPost';
 import MyFailureStory from './components/MyFailureStory';
+import RAdve from './myfailure-posts/RAdve';
+import BMcCabe from './myfailure-posts/BMcCabe';
+import EMoore from './myfailure-posts/EMoore';
+import JBazylak from './myfailure-posts/JBazylak';
+import JFarmer from './myfailure-posts/JFarmer';
+import JRose from './myfailure-posts/JRose';
+import NEnrightJerger from './myfailure-posts/NEnrightJerger';
+import PWeiss from './myfailure-posts/PWeiss';
+import RIrish from './myfailure-posts/RIrish';
 
 
 class App extends Component {
@@ -32,6 +41,17 @@ class App extends Component {
           <Route path="/MentalResources" exact component={MentalResources} />
           <Route path="/OnlineActivities" exact component={OnlineActivities} />
           <Route path="/MyFailureStory" exact component={MyFailureStory}/>
+          {/* My failure stores */}
+          <Route path="/myfailure-posts/RAdve" exact component={RAdve}/>
+          <Route path="/myfailure-posts/BMcCabe" exact component={BMcCabe}/>
+          <Route path="/myfailure-posts/EMoore" exact component={EMoore}/>
+          <Route path="/myfailure-posts/JBazylak" exact component={JBazylak}/>
+          <Route path="/myfailure-posts/JFarmer" exact component={JFarmer}/>
+          <Route path="/myfailure-posts/JRose" exact component={JRose}/>
+          <Route path="/myfailure-posts/NEnrightJerger" exact component={NEnrightJerger}/>
+          <Route path="/myfailure-posts/PWeiss" exact component={PWeiss}/>
+          <Route path="/myfailure-posts/RIrish" exact component={RIrish}/>
+
         </Switch>
         <Footer />
       </BrowserRouter>

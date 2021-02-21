@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import {Container} from 'react-bootstrap';
+import {Col, Container, Row} from 'react-bootstrap';
 import Header from './Header';
 import Card from '@material-ui/core/Card';
 import Grid from '@material-ui/core/Grid';
@@ -17,11 +17,12 @@ const useStyles = makeStyles((theme) => ({
       },
       card: {
         textAlign: 'center',
-        margin: 50,
-        minHeight: 400,
-        maxHeight: 600,
-        width: 400,
-        
+        marginTop: 20,
+        marginBottom: 20,
+        marginLeft: 30,
+        marginRight: 0,
+        height: 425,
+        minWidth: 350,
       },
       media: {
         width: 200,
@@ -32,30 +33,14 @@ const useStyles = makeStyles((theme) => ({
     }));
 
 export default class MyFailureStory extends Component {
-    
-
-  
     render(){
-      
-      
         return (
             <div>
                 <Header 
                     images={["failure1.png", "failure2.png", "failure3.png"]}
                     pagename="My Failure Story" 
-                    subtitle="Failures are finger posts on the road to achievement. - C.S. Lewis"/>
-
-              <div className="row">
-               
+                    subtitle="Failures are finger posts on the road to achievement. - C.S. Lewis"/>               
               <StoryCard></StoryCard>
-
-                
-              </div>
-
-                
-
-                
-              
             </div>
         )
     }
@@ -66,27 +51,24 @@ export default class MyFailureStory extends Component {
 function StoryCard() {
       const classes = useStyles();
         return(
-        
-          
-              storyData.map(story => {
+          <Row style={{maxWidth: '100%'}}>
+              {storyData.map(story => {
                 return (
-                  <Card className={classes.card}>
-                  <CardContent>
-            
-                  <h2>Prof. {story.professor}</h2>
-                  <img className={classes.media} src={require(`../img/myfailure/${story.image}.png`)}/>
-                  
-                  <h6><i>{story.description}</i></h6>
-
-                  <Button href={`../myfailure-posts/${story.image}`}>Continue Reading</Button>
-                  </CardContent>
-                  
-                  </Card>
+                  <Col md={4}>
+                    <Card className={classes.card}>
+                      <Button className='card-hover' href={`/myfailure-posts/${story.image}`}>
+                        <CardContent>
+                          <h2>Prof. {story.professor}</h2>
+                          <img className={classes.media} alt={story.professor} src={require(`../img/myfailure/${story.image}.png`)}/>
+                          <h6><i>{story.description}</i></h6>
+                          <Button href={`/myfailure-posts/${story.image}`}>Continue Reading</Button>
+                        </CardContent>
+                      </Button>
+                    </Card>
+                  </Col>
                 )
-              }
-                )
-            
-        
+              })}
+          </Row>        
         )
       }
         
