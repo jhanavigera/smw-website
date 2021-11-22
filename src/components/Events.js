@@ -5,17 +5,10 @@ class Events extends Component {
     state = {
         events: [
             {
-                "name": "",
-                "date": "",
-                "time": "",
-                "link": ""
-            },
-
-            {
-                "name": "",
-                "date": "",
-                "time": "",
-                "link": ""
+                "name": "Design your Mindset",
+                "date": "Mondays",
+                "time": "@ 6:10pm EDT",
+                "link": "Log into CLNx"
             }
 
         ]
@@ -23,17 +16,12 @@ class Events extends Component {
     render() {
         return (
             <div>
-                <h1>Upcoming Events</h1>
-                <div class="events">
-                    <br></br>
-                    <h6> Stay tuned for future events!</h6>     
-                </div>                 
+                <h1>Upcoming Events</h1>                 
                 {this.state.events.map(event => (
                     <div class="events">
-                         
                         <h6><b>{event.name}</b></h6>
                         <p>{event.date + " " + event.time}</p>
-                        <p> {event.link}</p>
+                        <p> Zoom Link: {event.link}</p>
                     </div>
 
                 ))}
