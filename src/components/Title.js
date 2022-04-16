@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import { Grid, Cell } from 'react-mdl'
 import handbook from '../img/Handbook_Cover.png'
 import peerCrisisCover from '../img/PeerCrisisCover.png'
-import handbookLink from '../Handbook 2020 - Updated.pdf'
+import handbookLink from '../Handbook 2021 - Updated.pdf'
 import PeerCrisis from '../Peer in Crisis.pdf'
 import Events from '../components/Events'
 
@@ -43,11 +43,13 @@ function Title() {
                     <h1>PDF Resources</h1>
                     <div className="item">
                         <img src={handbook} />
-                        <h5>SMW Handbook 2020-2021</h5>
+                        <h5>SMW Handbook 2021-2022</h5>
                         <p>Read for ways to reduce stress and for some useful resources!</p>
                         <a href={handbookLink} class="button1 small">Handbook PDF</a>
                     </div>
 
+                    <br></br>
+                    
                     <div className="item">
                         <img src={peerCrisisCover} />
                         <h5>Peer in Crisis Guide</h5>

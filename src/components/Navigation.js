@@ -20,7 +20,10 @@ export class Navigation extends Component {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto" style={{marginRight: '2.5rem'}}>
                         <NavLink className="d-inline p-2 menu-link" to="/">Home</NavLink>
-                        <NavLink className="d-inline p-2 menu-link" to="/About">Our Team</NavLink>
+                        {/*
+                            commented out the our team page(to be added in after edits):
+                            <NavLink className="d-inline p-2 menu-link" to="/About">Our Team</NavLink>
+                        */}
                         <NavLink className="d-inline p-2 menu-link" to="/blog">Blog</NavLink>
                         <NavLink className="d-inline p-2 menu-link" to="/MyFailureStory">My Failure Story</NavLink>
 
